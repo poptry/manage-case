@@ -6,8 +6,6 @@ module.exports = defineConfig({
     host: "localhost",
     port: 8080,
     https: false, // 禁用 HTTPS
-    hot: true,
-    historyApiFallback: true,
     allowedHosts: "all",
   },
 });
